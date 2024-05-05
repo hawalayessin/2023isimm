@@ -1,0 +1,131 @@
+.addcourse {
+  max-width: 510px;
+  margin: auto;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.addcourse .form2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px !important;
+}
+
+.addcourse .form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #235070;
+}
+
+.addcourse .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.addcourse label {
+  margin-bottom: 5px;
+}
+
+.addcourse input[type="text"], .addcourse input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+  
+}
+
+.addcourse select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.addcourse button[type="submit"] {
+  color: #ede7e7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+.addcourse .success-message {
+  text-align: center;
+
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.addcourse .go-back-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+.addcourse {
+  background-color: #1c1c1c; /* dark gray */
+  color: #f5f5f5; /* light gray */
+}
+
+.addcourse input,
+.addcourse select,
+.addcourse textarea {
+  background-color: #2b2b2b; /* slightly darker gray */
+  color: #f5f5f5; /* light gray */
+  border: 1px solid #555; /* medium gray */
+}
+
+.addcourse button[type="submit"] {
+  background-color: #0072c6; /* dark blue */
+  color: #f5f5f5; /* light gray */
+}
+
+.addcourse button[type="submit"]:hover {
+  background-color: #005ea2; /* slightly darker blue */
+}
+
+.addcourse a.go-back-link {
+  color: #0072c6; /* dark blue */
+}
+
+.addcourse .form-container a.go-back-link:hover {
+  color: #005ea2; /* slightly darker blue */
+}
+
+.addcourse .form-container label {
+  color: #bfbfbf; /* light gray */
+}
+
+.addcourse .form-row input[type="file"] {
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+
+.addcourse .form-row input[type="file"]:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+

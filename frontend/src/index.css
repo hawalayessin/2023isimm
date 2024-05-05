@@ -1,0 +1,274 @@
+body {
+  font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial,
+    Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+section {
+  width: 50vw;
+  max-width: 420px;
+  min-width: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  background-color: #071631;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+  border-radius: 8px;
+}
+.Sign {
+  margin: 15px;
+  width: fit-content;
+  font-size: 32px;
+  background: -webkit-linear-gradient(
+    55deg,
+    rgb(197, 4, 209),
+    rgb(184, 11, 45)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  color: white;
+  
+}
+
+a,
+a:visited {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+
+  width: 80%;
+}
+
+label,
+button {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+.flexGrow {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+select {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  height: 35.2px;
+  outline: none;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  padding: 0.2rem;
+  width: 80%;
+  border-radius: 0.5rem;
+}
+.menu-links ul .search-bar input[type="text"] {
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  color: #555;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+.menu-links ul li .search-bar input[type="Search"]:focus {
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+.reset {
+  margin-left: 35px;
+}
+
+.input-style {
+  outline: none;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 20%);
+  width: 264px;
+  padding-left: 30px;
+  background-image: url("././static/images/1236.png");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  border-radius: 64px;
+  height: 31px;
+  background-size: 20px 20px;
+}
+
+#avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+#avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.success-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bb61a0;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+.pimg {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+
+}
+
+.pimg svg {
+  fill: currentColor;
+}
+.pimg:hover svg {
+  fill: #081730; /* replace with your desired color */
+}
+
+.profile-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-button {
+  background-color: #f9a826;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.editable-input {
+  border: none;
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 16px;
+  padding: 4px 0;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.editable-input:focus {
+  outline: none;
+  border-bottom: 2px solid #f9a826;
+}

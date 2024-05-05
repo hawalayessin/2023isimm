@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "frontend"
+	},
+	{
+		"path": "Back/backend"
+	},
+	{
+		"path": "Back/live/db-livestream"
+	},
+	{
+		"path": "Back/live/rtmp-livestream"
+	}
+],
+  "settings": {}
+}

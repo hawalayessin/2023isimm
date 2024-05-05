@@ -1,0 +1,67 @@
+.profile-conatiner{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 60px !important;
+    
+}
+.avatar {
+    position: absolute !important;
+    z-index: 1;
+    border: 16px solid white;
+    transform: translate(26px, -94px);
+}
+
+.trainer-name{
+    margin-top: 35px !important;
+}
+.drawer{
+    width: 200px;
+    box-sizing: border-box;
+    margin-top: 74px;
+}
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+    width: 195px !important;
+    box-sizing: border-box;
+    margin-top: 45px;
+    background-color: #081730;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+    color: aliceblue;
+    display: flex;
+    
+}
+.css-1wj5678-MuiPaper-root-MuiCard-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 30px !important;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+    max-width: 1900px;
+}
+.css-o69gx8-MuiCardMedia-root {
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    background-position: center;
+    width: 100%;
+    object-fit: cover;
+    height: 427px;
+}
